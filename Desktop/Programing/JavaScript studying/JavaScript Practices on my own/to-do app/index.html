@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="todo-header">
+        <h1 class="todo-heading">TO-DO</h1>
+      </section>
+      <section class="container-input">
+        <form id="todo-form" action="/">
+          <label class="todo-label" for="todoInput">Enter your todo:</label>
+          <input type="text" name="todo" class="todo-input" id="todoInput" />
+          <button class="subBtn btnScaler" type="submit">+</button>
+        </form>
+      </section>
+      <!--  -->
+      <div class="todo-container">
+        <section class="todo-item">
+          <div class="todo">
+            <h3 class="todo-desc">-Workout for 45 minutes</h3>
+          </div>
+          <div class="todo-options">
+            <button class="done btnScaler">done</button>
+            <button class="edit btnScaler">edit</button>
+            <button class="delete btnScaler">delete</button>
+          </div>
+        </section>
+
+        <!--  -->
+      </div>
+      <!-- <section class="container-reset">
+          <button class="reset">Reset</button>
+        </section> -->
+    </div>
+  </body>
+</html>
